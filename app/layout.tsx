@@ -1,15 +1,16 @@
-import './globals.css'
-import Theme from './themes/theme'
+import './globals.css';
+import Theme from './themes/theme';
 
 export const metadata = {
   title: 'Open Jira',
-  description: 'Open Jira is an agile solution for managing software projects with ease and efficiency.',
-}
+  description:
+    'Open Jira is an agile solution for managing software projects with ease and efficiency.',
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -19,5 +20,5 @@ export default function RootLayout({
         </Theme>
       </body>
     </html>
-  )
+  );
 }
